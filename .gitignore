@@ -1,0 +1,7 @@
+# backup archives
+backup_*.tar.gz
+
+# temp files
+*.tmp
+*.swp
+*~
