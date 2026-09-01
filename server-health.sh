@@ -27,7 +27,7 @@ echo "--- CPU usage ---"
 top -bn1 | head -5
 echo ""
 
-echo "--- Top 5 proccesses using memory ---"
+echo "--- Top 5 processes using memory ---"
 ps aux --sort=-%mem | head -6
 echo ""
 
