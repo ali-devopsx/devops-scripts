@@ -27,11 +27,11 @@ echo "--- CPU usage ---"
 top -bn1 | head -5
 echo ""
 
-echo "--- Top 5 processes using memory ---"
+echo "--- Top 5 proccesses using memory ---"
 ps aux --sort=-%mem | head -6
 echo ""
 
-echo "--- Listening ports ---"
+echo "--- Listening ports (note: needs root for process names) ---"
 ss -tlnp 2>/dev/null | head -10
 echo ""
 echo "======================================="
